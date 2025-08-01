@@ -1,0 +1,27 @@
+
+ body {
+      background: linear-gradient(to right, #ffe4ec, #f8e0ff);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .card {
+      border-radius: 1rem;
+      overflow: hidden;
+    }
+    .card-img-top {
+      object-fit: cover;
+      height: 400px;
+      border-bottom: 2px solid #ff69b4;
+    }
+    .card-text {
+      font-size: 1rem;
+      font-style: italic;
+      color: #444;
+    }
+    .btn-like.liked {
+      color: white;
+      background-color: #dc3545;
+      border-color: #dc3545;
+    }
+    .btn-like i.bi-heart-fill {
+      color: white;
+    }

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memories with You 💖</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css" />
+ 
+</head>
+<body>
+  <div class="container mt-4">
+    <h2 class="text-center mb-4">🌸 Happy Girlfriends Day! 🌸</h2>
+    <p class="text-center text-muted">A little gallery of all the beautiful moments we’ve shared 🫶 Click ❤️ if you feel the same!</p>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+      <!-- CARD START -->
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="img7.jpg" class="card-img-top" height="225" alt="Memory 1">
+          <div class="card-body">
+            <p class="card-text">My sheylaaa!! 🤍 My forever person (including kp) 🫂</p>
+            <div class="d-flex justify-content-start align-items-center">
+              <button class="btn btn-outline-danger btn-sm btn-like">
+                <i class="bi bi-heart"></i> Like
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="img8.jpg" class="card-img-top" height="225" alt="Memory 2">
+          <div class="card-body">
+            <p class="card-text">I just love her smile ✨ literally sunshine 🌞</p>
+            <div class="d-flex justify-content-start align-items-center">
+              <button class="btn btn-outline-danger btn-sm btn-like">
+                <i class="bi bi-heart"></i> Like
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="img6.jpg" class="card-img-top" height="225" alt="Memory 3">
+          <div class="card-body">
+            <p class="card-text">My lifelines 😭 ride or die kinda love 💥</p>
+            <div class="d-flex justify-content-start align-items-center">
+              <button class="btn btn-outline-danger btn-sm btn-like">
+                <i class="bi bi-heart"></i> Like
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="img4.jpg" class="card-img-top" height="225" alt="Memory 4">
+          <div class="card-body">
+            <p class="card-text">Never been that happy — broken hand, but besties’ vibes healed it 💅</p>
+            <div class="d-flex justify-content-start align-items-center">
+              <button class="btn btn-outline-danger btn-sm btn-like">
+                <i class="bi bi-heart"></i> Like
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+         
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="img3.jpg" class="card-img-top" height="225" alt="Memory 6">
+          <div class="card-body">
+            <p class="card-text">bhaiii she's sexy!!</p>
+            <div class="d-flex justify-content-start align-items-center">
+              <button class="btn btn-outline-danger btn-sm btn-like">
+                <i class="bi bi-heart"></i> Like
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="img2.png" class="card-img-top" height="225" alt="Memory 7">
+          <div class="card-body">
+            <p class="card-text">A princess who has magic in her writing. I love you. 🌿</p>
+            <div class="d-flex justify-content-start align-items-center">
+              <button class="btn btn-outline-danger btn-sm btn-like">
+                <i class="bi bi-heart"></i> Like
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="img1.jpg" class="card-img-top" height="225" alt="Memory 8">
+          <div class="card-body">
+            <p class="card-text">Okay but this… kinda adorbs 🥹💕</p>
+            <div class="d-flex justify-content-start align-items-center">
+              <button class="btn btn-outline-danger btn-sm btn-like">
+                <i class="bi bi-heart"></i> Like
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="img5.jpg" class="card-img-top" height="225" alt="Memory 9">
+          <div class="card-body">
+            <p class="card-text">Love this sm 😭✨ pure serotonin drop</p>
+            <div class="d-flex justify-content-start align-items-center">
+              <button class="btn btn-outline-danger btn-sm btn-like">
+                <i class="bi bi-heart"></i> Like
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    document.querySelectorAll('.btn-like').forEach(button => {
+      button.addEventListener('click', () => {
+        button.classList.toggle('liked');
+        const icon = button.querySelector('i');
+        icon.classList.toggle('bi-heart-fill');
+        icon.classList.toggle('bi-heart');
+      });
+    });
+  </script>
+</body>
+</html>
